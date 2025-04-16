@@ -1,0 +1,237 @@
+.left-col {
+	grid-column: span 12 / span 12;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0.5rem 0;
+	gap: 2rem;
+}
+@media (min-width: 768px) {
+	.left-col {
+		grid-column: span 3 / span 3;
+	}
+}
+
+.left-col-content {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.post {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+.post-title {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	color: #4B5563;
+}
+.dot {
+	width: 0.5rem;
+	height: 0.5rem;
+	background-color: #7C3AED;
+	border-radius: 9999px;
+}
+.category {
+	font-size: 0.75rem;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+.post-link {
+	font-family: serif;
+	text-decoration: none;
+}
+.post-link:hover {
+	text-decoration: underline;
+}
+.post-meta {
+	font-size: 0.75rem;
+	color: #4B5563;
+}
+.author {
+	color: #7C3AED;
+}
+.author:hover {
+	text-decoration: underline;
+}
+
+.progress-section {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+.progress-bar {
+	width: 100%;
+	height: 0.25rem;
+	background-color: rgba(124, 58, 237, 0.1);
+}
+.progress-fill {
+	width: 50%;
+	height: 100%;
+	background-color: #7C3AED;
+}
+.more-link {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-decoration: none;
+}
+.more-text {
+	font-size: 0.75rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.arrow-icon {
+	width: 1rem;
+	color: #7C3AED;
+}
+
+.main-image {
+	position: relative;
+	grid-column: span 12 / span 12;
+	min-height: 24rem;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+@media (min-width: 768px) {
+	.main-image {
+		grid-column: span 9 / span 9;
+	}
+}
+@media (min-width: 1024px) {
+	.main-image {
+		grid-column: span 5 / span 5;
+	}
+}
+@media (min-width: 1280px) {
+	.main-image {
+		grid-column: span 6 / span 6;
+	}
+}
+.image-label {
+	position: absolute;
+	top: 1.5rem;
+	left: 1.5rem;
+	font-size: 0.75rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom: 2px solid #7C3AED;
+	padding-bottom: 0.5rem;
+	color: #1F2937;
+}
+.image-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	text-align: center;
+	padding: 1.5rem;
+	background: linear-gradient(to bottom, #F9FAFB, #F9FAFB);
+}
+.live-badge {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	margin-bottom: 1rem;
+	color: #7C3AED;
+}
+.ping-dot {
+	position: relative;
+	width: 0.5rem;
+	height: 0.5rem;
+	background-color: #7C3AED;
+	border-radius: 9999px;
+}
+.ping {
+	position: absolute;
+	width: 0.75rem;
+	height: 0.75rem;
+	top: -0.25rem;
+	left: -0.25rem;
+	border-radius: 9999px;
+	background-color: #7C3AED;
+	animation: ping 1s infinite;
+}
+@keyframes ping {
+	0% { transform: scale(1); opacity: 1; }
+	75%, 100% { transform: scale(2); opacity: 0; }
+}
+.headline {
+	font-family: serif;
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #1F2937;
+}
+.headline:hover {
+	text-decoration: underline;
+}
+
+.right-col {
+	display: none;
+}
+@media (min-width: 1024px) {
+	.right-col {
+		display: block;
+		grid-column: span 4 / span 4;
+		padding-top: 0.5rem;
+	}
+}
+.tabs {
+	display: flex;
+	margin-bottom: 2rem;
+	gap: 1.25rem;
+	border-bottom: 2px solid #7C3AED33;
+}
+.tab {
+	padding-bottom: 1.25rem;
+	font-size: 0.75rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom: 2px solid transparent;
+}
+.tab.active {
+	border-bottom-color: #7C3AED;
+}
+.news-list {
+	display: flex;
+	flex-direction: column;
+}
+.news-item {
+	display: flex;
+	padding: 1rem 0.25rem;
+	gap: 1rem;
+}
+.news-img {
+	width: 5rem;
+	height: 5rem;
+	object-fit: cover;
+	background-color: #6B7280;
+}
+.news-content {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+.news-link {
+	font-family: serif;
+	text-decoration: none;
+}
+.news-link:hover {
+	text-decoration: underline;
+}
+.news-meta {
+	margin-top: auto;
+	font-size: 0.75rem;
+	color: #4B5563;
+}
+.news-cat {
+	color: #3B82F6;
+}
+.news-cat:hover {
+	text-decoration: underline;
+}
