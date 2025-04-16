@@ -457,7 +457,7 @@ body{
     color:#fff;
     font-weight:700;
     text-transform:uppercase;
-    background-color:#0f33ff;
+    background-color:#bbbe8e;
     border:none;
     opacity:0;
     visibility:hidden;
@@ -555,7 +555,7 @@ body{
             content:"09"}
 
 .side-nav li.is-active{
-    color:#0f33ff;
+    color:#bbbe8e;
     -webkit-transition:color .4s ease-in-out;
     transition:color .4s ease-in-out}
 
@@ -615,7 +615,7 @@ body{
     left:0;
     width:30px;
     height:4px;
-    background-color:#0f33ff}
+    background-color:#bbbe8e}
 
 .intro--banner h1{
     position:relative;
@@ -638,7 +638,7 @@ body{
     left:23px;
     right:0;
     height:100%;
-    background-color:#0f33ff;
+    background-color:#bbbe8e;
     z-index:-1;
     -webkit-transition:left .2s ease-in-out;
     transition:left .2s ease-in-out}
@@ -977,7 +977,7 @@ body{
     left:200px;
     -webkit-transform:rotate(-25deg);
     transform:rotate(-25deg);
-    border:5px solid #0f33ff;
+    border:5px solid #bbbe8e;
     border-right-color:transparent;
     border-bottom-color:transparent}
 
@@ -990,7 +990,7 @@ body{
     transform:rotate(45deg);
     width:10px;
     height:10px;
-    background-color:#0f33ff}
+    background-color:#bbbe8e}
 
 .about--banner h2{
     position:relative;
@@ -1028,7 +1028,7 @@ body{
     left:255px;
     width:10px;
     height:10px;
-    background-color:#0f33ff}
+    background-color:#bbbe8e}
 
 .about--banner a{
     padding:5px 17px 5px 0;
@@ -1074,7 +1074,7 @@ body{
     height:75px;
     text-decoration:none;
     color:#fff;
-    border:10px solid #0f33ff;
+    border:10px solid #bbbe8e;
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat}
@@ -1230,14 +1230,14 @@ body{
     margin:0 auto 25px auto}
 
 .contact--lockup .modal--options li:nth-child(1){
-    background-color:#1769ff}
+    background-color:#bbbe8e}
 
 .contact--lockup .modal--options li:nth-child(2){
     background-color:#ea4c89}
 
 .contact--lockup .modal--options li:nth-child(3){
     margin-bottom:0;
-    background-color:#0f33ff;
+    background-color:#bbbe8e;
     text-transform:uppercase}
 
 .contact--lockup .modal--options a{
@@ -1303,7 +1303,7 @@ body{
     font-size:16px;
     font-weight:700;
     text-transform:uppercase;
-    background-color:#0f33ff;
+    background-color:#bbbe8e;
     border:none;
     border-radius:0}
 
@@ -1376,8 +1376,8 @@ body{
     display:none}
 
 .work-request--options input[type="checkbox"]:checked+label{
-    background-color:#0f33ff;
-    border-color:#0f33ff}
+    background-color:#bbbe8e;
+    border-color:#bbbe8e}
 
 .work-request--options input[type="checkbox"]:checked+label svg{
     width:15px}
@@ -1491,7 +1491,7 @@ body{
     -webkit-transform:translateZ(0) translateX(0) rotateY(0deg);
     transform:translateZ(0) translateX(0) rotateY(0deg);
     min-height:100%;
-    outline:30px solid #0f33ff;
+    outline:30px solid #bbbe8e;
     -webkit-transition:-webkit-transform .4s;
     transition:-webkit-transform .4s;
     transition:transform .4s;
@@ -1516,7 +1516,7 @@ body{
 .effect-rotate-left--animate .container{
     -webkit-transform:translateZ(-1800px) translateX(-50%) rotateY(45deg);
     transform:translateZ(-1800px) translateX(-50%) rotateY(45deg);
-    outline:30px solid #0f33ff}
+    outline:30px solid #bbbe8e}
 
 .outer-nav{
     position:absolute;
@@ -1583,7 +1583,7 @@ body{
     width: 100%;
     height: 8px;
     opacity:0;
-    background-color:#0f33ff}
+    background-color:#bbbe8e}
 
 .outer-nav>li.is-active::before{
     opacity:1}
